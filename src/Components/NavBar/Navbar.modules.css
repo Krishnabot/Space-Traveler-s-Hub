@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  gap: 50px;
+}
+
+.logo {
+  width: 10%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: -2%;
+  gap: 20px;
+}
