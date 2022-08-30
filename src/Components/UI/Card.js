@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Card.css';
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
 const Card = (props) => {

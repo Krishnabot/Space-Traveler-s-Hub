@@ -5,7 +5,7 @@ import RocketPage from './Components/page/RocketPage';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<RocketPage />} />
