@@ -1,24 +1,24 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import styles from "../components/Navbar.module.css";
-import logo from "../assets/images/logo.png";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import styles from './Navbar.module.css';
+import logo from '../assets/images/logo.png';
 
 const Navbar = () => {
   const navLinks = [
     {
       navId: 1,
-      path: "/Rockets",
-      text: "Rockets",
+      path: '/Rockets',
+      text: 'Rockets',
     },
     {
       navId: 2,
-      path: "/Missions",
-      text: "Missions",
+      path: '/Missions',
+      text: 'Missions',
     },
     {
       navId: 3,
-      path: "MyProfile",
-      text: "My Profile",
+      path: 'MyProfile',
+      text: 'My Profile',
     },
   ];
 
