@@ -1,0 +1,52 @@
+@font-face { font-family: PoppinsLignt; src: url('../assets/fonts/Poppins-Light.ttf'); }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 1.75rem 4.75rem;
+}
+
+.header > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.title {
+  margin: 0 1.5rem;
+  font-size: 2rem;
+  font-family: PoppinsLight, sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background: inherit;
+  margin-left: auto;
+
+}
+
+.navLink_wrap{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+
+.navLink {
+  margin: 1.125rem 1.5rem;
+  font-family: PoppinsLight, sans-serif;
+  font-size: 1.3 rem;
+  letter-spacing: 0.1em;
+  color: #0d00ff;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  cursor: pointer;
+  text-decoration: underline #0000ff;
+}
