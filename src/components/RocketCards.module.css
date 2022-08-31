@@ -1,0 +1,10 @@
+@font-face { font-family: PoppinsLignt; src: url('../assets/fonts/Poppins-Light.ttf'); }
+
+.cards {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.card2 {
+  margin-top: 5%;
+}
