@@ -1,3 +1,11 @@
+@font-face { font-family: PoppinsLignt; src: url('../assets/fonts/Poppins-Light.ttf'); }
+
 td {
-  height: 2em;
+  word-wrap: break-word;
+  padding: 0.5em;
+  font-family: PoppinsLight, sans-serif;
+}
+
+tr:nth-child(even) {
+  background: rgb(236, 232, 232);
 }
