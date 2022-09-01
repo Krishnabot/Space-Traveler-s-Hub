@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MissionsContainer from './components/MissionsContainer';
 import RocketCards from './components/RocketCards';
+import ProfileContainer from './components/ProfileContainer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/Rockets" element={<RocketCards />} />
         <Route path="/Missions" element={<MissionsContainer />} />
+        <Route path="/MyProfile" element={<ProfileContainer />} />
       </Routes>
     </>
   );

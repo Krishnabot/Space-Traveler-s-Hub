@@ -17,8 +17,8 @@ const Navbar = () => {
     },
     {
       navId: 3,
-      path: 'MyProfile',
-      text: 'My Profile',
+      path: '/MyProfile',
+      text: 'MyProfile',
     },
   ];
 
