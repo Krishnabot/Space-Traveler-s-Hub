@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
-import Profile from "./Profile";
-import styles from "./ProfileContainer.module.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import Profile from './Profile';
+import styles from './ProfileContainer.module.css';
 
 const ProfileContainer = () => {
   const missions = useSelector((state) => state.missions);
