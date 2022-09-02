@@ -1,23 +1,35 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import styles from './RocketCards.module.css';
+import Rockets from './Rockets';
+import fetchRockets from '../redux/ConsumeAPI/FetchRocket';
 
-const RocketCards = () => (
-  <div className={styles.cards}>
-    <div className={styles.card1}>
-      <img href="#" alt="Static" />
-      Placeholder Image
-      <h2>Falcon1</h2>
-      <p>Some dummy text as placeholder</p>
-      <button type="submit">Reserve Rocket</button>
+const RocketCards = () => {
+  const rockets = useSelector((state) => state.rockets);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    if (!rockets.length) {
+      dispatch(fetchRockets());
+    }
+  }, [dispatch, rockets.length]);
+
+  return (
+    <div className={styles.cards}>
+      <div>
+        {rockets.map((rocket) => (
+          <div className="rocket-item" key={rocket.id}>
+            <Rockets
+              id={rocket.id}
+              rocket_name={rocket.rocket_name}
+              src={rocket.flikr_images}
+              description={rocket.description}
+              value={rocket.value}
+            />
+          </div>
+        ))}
+      </div>
     </div>
-    <div className={styles.card2}>
-      <img href="#" alt="Static" />
-      Placeholder Image
-      <h2>Falcon9</h2>
-      <p>Some dummy text as placeholder</p>
-      <button type="submit">Cancel Reservation</button>
-    </div>
-  </div>
-);
+  );
+};
 
 export default RocketCards;
