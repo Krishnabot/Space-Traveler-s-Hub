@@ -17,7 +17,6 @@ const RocketCards = () => {
     <div className={styles.cards}>
       <div>
         {rockets.map((rocket) => (
-          /* eslint-disable */
           <div className="rocket-item" key={rocket.id}>
             <Rockets
               rocket={rocket}

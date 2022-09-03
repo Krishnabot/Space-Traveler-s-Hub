@@ -26,7 +26,6 @@ const MissionsContainer = () => {
         </thead>
         <tbody>
           {missions.map((mission) => (
-            /* eslint-disable */
             <tr className="mission-item" key={mission.mission_id}>
               <Missions mission={mission} />
             </tr>

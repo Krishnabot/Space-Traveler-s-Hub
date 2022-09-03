@@ -53,7 +53,7 @@ Rockets.propTypes = {
     rocket_name: propTypes.string,
     description: propTypes.string,
     result: propTypes.bool,
-    id: propTypes.string.isRequired,
+    id: propTypes.string,
     image: propTypes.string,
   }).isRequired,
 };

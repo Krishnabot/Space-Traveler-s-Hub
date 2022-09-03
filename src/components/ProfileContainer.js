@@ -36,11 +36,11 @@ const ProfileContainer = () => {
         {joinedRockets.length === 0 ? (
           <>
             <div className={styles.no_rocket}>
-              <span>No rocket joined Yet! </span>
+              <span>No Rocket Reserved Yet! </span>
             </div>
             <Link to="/Rockets">
               <button type="button" className={styles.join_rocket}>
-                Would You Like to join one?
+                Would You Like to Reserve One?
               </button>
             </Link>
           </>
