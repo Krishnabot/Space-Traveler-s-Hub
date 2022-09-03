@@ -21,14 +21,14 @@ const Missions = (props) => {
         </span>
       </td>
       <td className={styles.member_status}>
-        {!mission.status && <p className="inactive">NOT A MEMBER</p>}
-        {mission.status && <p className="active">Active Member</p>}
+        {!mission.status && <p className={styles.inactive}>NOT A MEMBER</p>}
+        {mission.status && <p className={styles.active}>Active Member</p>}
       </td>
       <td className={styles.mission_status}>
         {!mission.status && (
           <button
             type="button"
-            className="join"
+            className={styles.join}
             onClick={clickHandeler}
             id={mission.mission_id}
           >
@@ -38,7 +38,7 @@ const Missions = (props) => {
         {mission.status && (
           <button
             type="button"
-            className="leave"
+            className={styles.leave}
             onClick={clickHandeler}
             id={mission.mission_id}
           >

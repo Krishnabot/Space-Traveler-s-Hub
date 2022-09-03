@@ -12,7 +12,7 @@ const ProfileContainer = () => {
 
   return (
     <div className={styles.container_wrap}>
-      <div className={styles.misions}>
+      <div className={styles.missions}>
         <h2>My Missions</h2>
         {joinedMissions.length === 0 ? (
           <>
@@ -27,7 +27,9 @@ const ProfileContainer = () => {
           </>
         ) : (
           joinedMissions.map((mission) => (
-            <Profile key={mission.mission_id} name={mission.mission_name} />
+            <div className={styles.missionNames} key={mission.mission_id}>
+              <Profile key={mission.mission_id} name={mission.mission_name} />
+            </div>
           ))
         )}
       </div>
@@ -46,7 +48,9 @@ const ProfileContainer = () => {
           </>
         ) : (
           joinedRockets.map((rocket) => (
-            <Profile key={rocket.id} name={rocket.rocket_name} />
+            <div className={styles.rocketNames} key={rocket.rocket_id}>
+              <Profile key={rocket.id} name={rocket.rocket_name} />
+            </div>
           ))
         )}
       </div>

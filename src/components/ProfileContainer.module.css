@@ -1,8 +1,46 @@
 .container_wrap {
+  display: flex;
+  gap: 25rem;
   padding: 1em;
 }
 
-.rockets {
-  margin-left: 30rem;
-  margin-top: -6.4rem;
+.missions {
+  margin-left: 4rem;
+  width: 15rem;
+}
+
+.join_rocket {
+  height: 2rem;
+  margin-top: 1rem;
+  background-color: rgb(41, 77, 221);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.join_rocket:active {
+  background-color: rgb(73, 101, 214);
+}
+
+.join_mission {
+  height: 2rem;
+  margin-top: 1rem;
+  background-color: rgb(41, 77, 221);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.join_mission:active {
+  background-color: rgb(73, 101, 214);
+}
+
+.missionNames {
+  width: 38rem;
+  border: 0.1px solid lightskyblue;
+}
+
+.rocketNames {
+  width: 38rem;
+  border: 0.1px solid lightskyblue;
 }
