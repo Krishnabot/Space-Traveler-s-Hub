@@ -7,6 +7,8 @@ import styles from './ProfileContainer.module.css';
 const ProfileContainer = () => {
   const missions = useSelector((state) => state.missions);
   const joinedMissions = missions.filter((mission) => mission.status === true);
+  const rockets = useSelector((state) => state.rockets);
+  const joinedRockets = rockets.filter((rocket) => rocket.result === true);
 
   return (
     <div className={styles.container_wrap}>
@@ -26,6 +28,25 @@ const ProfileContainer = () => {
         ) : (
           joinedMissions.map((mission) => (
             <Profile key={mission.mission_id} name={mission.mission_name} />
+          ))
+        )}
+      </div>
+      <div className={styles.rockets}>
+        <h2>Rockets</h2>
+        {joinedRockets.length === 0 ? (
+          <>
+            <div className={styles.no_rocket}>
+              <span>No rocket joined Yet! </span>
+            </div>
+            <Link to="/Rockets">
+              <button type="button" className={styles.join_rocket}>
+                Would You Like to join one?
+              </button>
+            </Link>
+          </>
+        ) : (
+          joinedRockets.map((rocket) => (
+            <Profile key={rocket.id} name={rocket.rocket_name} />
           ))
         )}
       </div>

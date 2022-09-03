@@ -19,11 +19,7 @@ const RocketCards = () => {
         {rockets.map((rocket) => (
           <div className="rocket-item" key={rocket.id}>
             <Rockets
-              id={rocket.id}
-              rocket_name={rocket.rocket_name}
-              src={rocket.flikr_images}
-              description={rocket.description}
-              value={rocket.value}
+              rocket={rocket}
             />
           </div>
         ))}

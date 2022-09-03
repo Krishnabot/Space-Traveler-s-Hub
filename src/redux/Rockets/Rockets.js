@@ -7,10 +7,10 @@ const rocketsSlice = createSlice({
   reducers: {
     joinRockets(state, action) {
       const newState = state.map((rocket) => {
-        if (rocket.id === action.payload.id) {
+        if (rocket.id === action.payload.rocket.id) {
           return {
             ...rocket,
-            status: !rocket.status,
+            result: !rocket.result,
           };
         }
         return {
@@ -22,12 +22,12 @@ const rocketsSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder.addCase(fetchRockets.fulfilled, (state, action) => action.payload.map((rocket) => ({
-      flikr_images: rocket.flikr_images[0],
-      id: rocket.id,
+      id: rocket.rocket_id,
       rocket_name: rocket.rocket_name,
       description: rocket.description,
+      image: rocket.flickr_images[0],
       more: rocket.wikipedia,
-      status: false,
+      result: false,
     })));
   },
 });
