@@ -21,7 +21,7 @@ const Navbar = () => {
       text: 'MyProfile',
     },
   ];
-
+  /* eslint-disable */
   return (
     <header className={styles.header}>
       <div>
