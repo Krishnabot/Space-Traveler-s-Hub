@@ -20,7 +20,7 @@
 
 ## Live Demo 
 
-[Book Store live Demo Not Available yet]()
+[Live Demo of the Site](https://genuine-crostata-d7ce29.netlify.app/Rockets)
 
 ## Getting Started 
 
