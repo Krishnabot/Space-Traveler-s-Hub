@@ -7,7 +7,7 @@ import MissionContainer from '../components/MissionsContainer';
 import Rockets from '../components/Rockets';
 import RocketCards from '../components/RocketCards';
 import Navbar from '../components/Navbar';
-import Profile from '../components/profile';
+import Profile from '../components/Profile';
 import ProfileContainer from '../components/ProfileContainer';
 import store from '../redux/configureStore';
 
