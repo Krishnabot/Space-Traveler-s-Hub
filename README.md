@@ -15,7 +15,11 @@
 
 
 ## Project SnapShot
-![Project-Snapshot](https://user-images.githubusercontent.com/40334904/187408700-a5b9ae37-def6-40a5-85cf-8bd2180d8860.png)
+![snapshot-rockets](https://user-images.githubusercontent.com/40334904/188294664-8145ca2d-17b3-4e0a-af4a-a37ea1ab5f46.png)
+
+![snapshot-missions](https://user-images.githubusercontent.com/40334904/188294662-542a972d-a96c-49cd-bb2b-6f59b2dcdd36.png)
+
+![snapshot-profile](https://user-images.githubusercontent.com/40334904/188294663-86f51519-7070-4b59-bbe9-ce3f7a144ee9.png)
 
 
 ## Live Demo 
@@ -58,7 +62,8 @@ The app is ready to be deployed!
 
 - GitHub: [@Krishnabot](https://github.com/Krishnabot)
 - Twitter: [@last_matrix](https://twitter.com/last_matrix)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/krishna-prasad-acharya-3596bb130/)
+- LinkedIn: [@krishnabot](https://www.linkedin.com/in/krishnabot/)
+- HackerRank [@KrishnaBot](https://www.hackerrank.com/KrishnaBot)
 
 👤 **Maxmilano**
 
