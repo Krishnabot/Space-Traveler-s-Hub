@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import styles from './RocketCards.module.css';
+import styles from './styles/RocketCards.module.css';
 import Rockets from './Rockets';
 import fetchRockets from '../redux/ConsumeAPI/FetchRocket';
 

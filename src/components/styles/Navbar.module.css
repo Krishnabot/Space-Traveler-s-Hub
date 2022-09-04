@@ -1,4 +1,4 @@
-@font-face { font-family: PoppinsLignt; src: url('../assets/fonts/Poppins-Light.ttf'); }
+@font-face { font-family: PoppinsLignt; src: url('/src/assets/fonts/Poppins-Light.ttf'); }
 
 .header {
   display: flex;

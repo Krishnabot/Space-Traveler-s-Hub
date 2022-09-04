@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import propTypes from 'prop-types';
-import styles from './RocketCards.module.css';
+import styles from './styles/RocketCards.module.css';
 import { joinRockets } from '../redux/Rockets/Rockets';
 
 const Rockets = (props) => {
