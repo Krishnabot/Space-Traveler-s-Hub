@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00d8a5b2.css",
+    "main.js": "/static/js/main.509d673b.js",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/logo.png": "/static/media/logo.c1cd168acba305496d99.png",
+    "index.html": "/index.html",
+    "main.00d8a5b2.css.map": "/static/css/main.00d8a5b2.css.map",
+    "main.509d673b.js.map": "/static/js/main.509d673b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00d8a5b2.css",
+    "static/js/main.509d673b.js"
+  ]
+}

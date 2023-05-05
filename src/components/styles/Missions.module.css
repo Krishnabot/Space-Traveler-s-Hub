@@ -1,0 +1,51 @@
+@font-face { font-family: PoppinsLignt; src: url('/src/assets/fonts/Poppins-Light.ttf'); }
+
+td {
+  word-wrap: break-word;
+  padding: 0.5em;
+  font-family: PoppinsLight, sans-serif;
+}
+
+tr:nth-child(even) {
+  background: rgb(236, 232, 232);
+}
+
+.join {
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  height: 2rem;
+  background-color: white;
+  color: rgb(93, 92, 92);
+  border: 1px solid rgb(120, 120, 120);
+  border-radius: 4px;
+}
+
+.leave {
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  height: 2rem;
+  background-color: white;
+  color: rgb(240, 1, 1);
+  border: 1px solid rgb(227, 1, 1);
+  border-radius: 4px;
+}
+
+.inactive {
+  width: 7.6rem;
+  padding: 0.2rem;
+  margin-top: 3.3rem;
+  margin-left: 1.5rem;
+  background-color: grey;
+  color: white;
+  border-radius: 4px;
+}
+
+.active {
+  width: 6.7rem;
+  padding: 0.2rem;
+  margin-top: 3.3rem;
+  margin-left: 1.5rem;
+  background-color: rgb(47, 186, 186);
+  color: white;
+  border-radius: 4px;
+}
